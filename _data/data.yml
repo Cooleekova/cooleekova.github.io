@@ -39,7 +39,7 @@ sidebar:
           level: B1
 
         - idiom: Russo
-          level: Native
+          level: Nativo
 
     # interests:
       # title: Interests
@@ -64,7 +64,7 @@ career-profile:
         - Python
         - Princípios de OOP
         - SQL
-        - bancos de dados relacionais
+        - Bancos de dados
         - Django
         - Flask
         - Docker
@@ -106,7 +106,7 @@ experiences:
         details: |
           Organização do transporte internacional de cargas, acompanhamento do cumprimento das condições e prazos de transporte,
           verificação de documentos alfandegários e transportes,
-          preparação relatórios financeiros mensais
+          preparação relatórios financeiros.
       - role: Representante Comercial
         time: 2007 - 2010
         company: St-Fud
@@ -145,41 +145,52 @@ publications:
     title: Projetos
     intro: |
     papers:
-      - title: REST API для сайта объявлений в Docker-контейнере
+      - title: API REST para site de classificados no Docker-contêiner 
         link: "https://github.com/Cooleekova/dockerized_Flask_RESTful_API"
         authors: Python 3 / Flask / SQLAlchemy / PostgreSQL / Docker / JSON
         conference: | 
-          API предоставляет доступ к базе данных с пользователями и объявлениями.Реализована возможность создавать новых пользователей и получать данные профиля пользователя по ID.Объявление можно создать, просмотреть и удалить. 
+         A API fornece acesso a um banco de dados com usuários e anúncios. 
+         Foi implementada a capacidade de criar novos usuários e obter dados de perfil de usuário por ID.
+         Um anúncio pode ser criado, visualizado e excluído.
 
 
-      - title: API для автоматизации закупок в розничной сети
+      - title: API para automatização de compras em rede de varejo
         link: "https://github.com/Cooleekova/ordering_goods_django_API"
         authors: Python 3 / Django / Django REST framework / PostgreSQL / Celery / Redis / YAML / HTML / CSS 
         conference: | 
-          Пользователи сервиса: менеджер по закупкам, который заказывает товары, и поставщик товаров. Заказчик может регистрироваться, входить в систему, восстанавливать пароль и совершать покупки по каталогу. Функционал со стороны поставщика: включение и отключение приёма заказов, получение списка выполненных заказов,  обновлении прайс-листа через API.
+          Usuários do serviço: um gerente de compras que solicita mercadorias e um fornecedor de mercadorias. 
+          O comprador pode se cadastrar, fazer login, recuperar sua senha e fazer compras no catálogo.
+          Funcionalidade do fornecedor:
+          habilitar e desabilitar a aceitação de pedidos,
+          obter uma lista de pedidos concluídos,
+          atualização da lista de preços via API.
 
 
-      - title: REST API  микросервис для аутентификации пользователей
+      - title: Microsserviço para autenticação dos usuários
         link: "https://github.com/Cooleekova/FastAPI_user_auth"
-        authors: Python 3 / FastAPI / SQLAlchemy / PostgreSQL / Poetry / JSON Web Token
+        authors: Python 3 / FastAPI / SQLAlchemy / PostgreSQL / Poetry / JSON Web Token / REST API 
         conference: |
-          Реализованные эндпоинты: регистрация нового пользователя, вход в систему, сброс пароля, 
-          получить профиль пользователя, обновить профиль пользователя, деактивировать аккаунт,
-          изменить пароль, выйти, загрузить изображение профиля, получить изображение профиля.
+          Endpoints implementados: 
+          registro de novo usuário, login, redefinição de senha, 
+          obter perfil de usuário, atualizar perfil de usuário, 
+          desativar conta, alterar senha, sair da conta, 
+          fazer upload de foto de perfil, obter foto de perfil.
         
-      - title: Погодное приложение
+      - title: Aplicativo de clima
         link: "https://github.com/Cooleekova/check-weather-app-django"
         authors: Python 3 / Django / SQLite / HTML / Bootstrap / Heroku cloud platform
         conference: |
-          Приложение позволяет получать данные о текущей погоде в указанном городе. 
-          Пользователю приложения предоставляется возможность ввести название города и получать информацию о погоде в режиме реального времени. 
-          Проект развернут на веб-сервере Heroku: https://check-weather-app-django.herokuapp.com/
+          O aplicativo permite receber dados sobre o clima atual na cidade especificada.
+          O usuário do aplicativo tem a oportunidade de inserir o nome da cidade e receber informações meteorológicas em tempo real.
+          O projeto é implantado no servidor web Heroku.
         
-      - title: Асинхронная программа для взаимодействия с открытым API
+      - title: Programa assíncrono para interagir com API aberta
         link: "https://github.com/Cooleekova/get_Star_Wars_characters_with_Python_Asyncio"
         authors: Python 3 / Asyncio / Aiohttp / SQLAlchemy / JSON / API
         conference: |
-          Информация о персонажах Звёздных войн выгружается из Star Wars API и сохраняется в базу данных. Выгрузка из API и загрузка в БД происходит асинхронно.
+          As informações sobre os personagens de Star Wars 
+          são baixadas da API de Star Wars e armazenadas em um banco de dados. 
+          O carregamento de informações no banco de dados ocorre de forma assíncrona.
 
 #skills:
     #title: Skills &amp; Proficiency
