@@ -1,0 +1,207 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Tatiana Kulikova
+    tagline: Desenvolvedora Python
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: cooleekova@gmail.com
+    phone: +55 (12) 99641-1688
+    timezone: 
+    citizenship:
+    website: #do not add http://
+    linkedin: cooleekova
+    xing: 
+    github: cooleekova
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Idiomas
+      info:
+        - idiom: Inglês
+          level: C1
+
+        - idiom: Português
+          level: B1
+
+        - idiom: Russo
+          level: Native
+
+    # interests:
+      # title: Interests
+      # info:
+        #- item: Climbing
+        #  link:
+
+        #- item: Snowboarding
+        #  link:
+
+        #- item: Cooking
+        # link:
+
+career-profile:
+    title: Sobre mim
+    summary: |
+      Olá, meu nome é Tatiana e sou desenvolvedora Python em transição de carreira.
+      Em 2020, comecei a estudar programação com a expectativa de uma transição gradual para a TI, como o campo de atuação mais promissor e interessante.
+      Em 2021, eu me formou no programa "Desenvolvedor Python do zero" e recebeu o diploma de formação profissional.
+      Atualmente continuo a estudar como autodidata.
+      
+        - Python
+        - Princípios de OOP
+        - SQL
+        - bancos de dados relacionais
+        - Django
+        - Flask
+        - Docker
+        - Git
+        - CI/CD (Github Actions)
+        - Linux (Ubuntu) 
+        - Windows (Powershell, WSL)
+ 
+education:
+    title: Educação
+    info:
+      - degree: Desenvolvimento WEB
+        university: Netology 
+        time: 2020 - 2021
+        #details: |
+      - degree: Gestão
+        university: Academia Internacional Russa de Turismo
+        time: 2006 - 2012
+        #details: |
+          #Describe your study here lorem ipsum dolor sit amet, consectetuer
+          #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          #sociis natoque penatibus et magnis dis parturient montes, nascetur
+          #ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          #pretium quis, sem.
+          #  - Bullet point
+          #  - Bullet point
+experiences:
+    title: Experiência profissional
+    info:
+      - role: Coordenadora de negócios
+        time: 2014 - 2022
+        company: Technogroupp
+        details: |
+          Suporte total ao processo de interação entre o departamento de vendas e departamentos relacionados e parceiros da empresa,
+          administração do sistema CRM do departamento de vendas, administração do site da empresa.
+      - role: Especialista em transporte
+        time: 2010 - 2013
+        company: GRUNDFOS
+        details: |
+          Organização do transporte internacional de cargas, acompanhamento do cumprimento das condições e prazos de transporte,
+          verificação de documentos alfandegários e transportes,
+          preparação relatórios financeiros mensais
+      - role: Representante Comercial
+        time: 2007 - 2010
+        company: St-Fud
+        details: |
+          Vendas ativas (laticínios, queijos, sucos, maioneses),
+          manutenção de relações comerciais de longo prazo com clientes,
+          captação de novos clientes.
+projects:
+    #title: Projects
+    #intro: >
+      #You can list your side projects or open source libraries in this
+     # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      #Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    #assignments:
+     # - title: Velocity
+     #   link: "#hook"
+     #   tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+   #   - title: DevStudio
+    #    link: "#"
+    #    tagline: "A responsive website template designed to help web developers/designers market their services."
+
+     # - title: Tempo
+    #    link: "#"
+     #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    #  - title: Atom
+    #    link: "#"
+     #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+     # - title: Delta
+     #   link: "#"
+     #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Projetos
+    intro: |
+    papers:
+      - title: REST API для сайта объявлений в Docker-контейнере
+        link: "https://github.com/Cooleekova/dockerized_Flask_RESTful_API"
+        authors: Python 3 / Flask / SQLAlchemy / PostgreSQL / Docker / JSON
+        conference: | 
+          API предоставляет доступ к базе данных с пользователями и объявлениями.Реализована возможность создавать новых пользователей и получать данные профиля пользователя по ID.Объявление можно создать, просмотреть и удалить. 
+
+
+      - title: API для автоматизации закупок в розничной сети
+        link: "https://github.com/Cooleekova/ordering_goods_django_API"
+        authors: Python 3 / Django / Django REST framework / PostgreSQL / Celery / Redis / YAML / HTML / CSS 
+        conference: | 
+          Пользователи сервиса: менеджер по закупкам, который заказывает товары, и поставщик товаров. Заказчик может регистрироваться, входить в систему, восстанавливать пароль и совершать покупки по каталогу. Функционал со стороны поставщика: включение и отключение приёма заказов, получение списка выполненных заказов,  обновлении прайс-листа через API.
+
+
+      - title: REST API  микросервис для аутентификации пользователей
+        link: "https://github.com/Cooleekova/FastAPI_user_auth"
+        authors: Python 3 / FastAPI / SQLAlchemy / PostgreSQL / Poetry / JSON Web Token
+        conference: |
+          Реализованные эндпоинты: регистрация нового пользователя, вход в систему, сброс пароля, 
+          получить профиль пользователя, обновить профиль пользователя, деактивировать аккаунт,
+          изменить пароль, выйти, загрузить изображение профиля, получить изображение профиля.
+        
+      - title: Погодное приложение
+        link: "https://github.com/Cooleekova/check-weather-app-django"
+        authors: Python 3 / Django / SQLite / HTML / Bootstrap / Heroku cloud platform
+        conference: |
+          Приложение позволяет получать данные о текущей погоде в указанном городе. 
+          Пользователю приложения предоставляется возможность ввести название города и получать информацию о погоде в режиме реального времени. 
+          Проект развернут на веб-сервере Heroku: https://check-weather-app-django.herokuapp.com/
+        
+      - title: Асинхронная программа для взаимодействия с открытым API
+        link: "https://github.com/Cooleekova/get_Star_Wars_characters_with_Python_Asyncio"
+        authors: Python 3 / Asyncio / Aiohttp / SQLAlchemy / JSON / API
+        conference: |
+          Информация о персонажах Звёздных войн выгружается из Star Wars API и сохраняется в базу данных. Выгрузка из API и загрузка в БД происходит асинхронно.
+
+#skills:
+    #title: Skills &amp; Proficiency
+
+    #toolset:
+    #  - name: Python & Django
+    #    level: 98%
+
+    #  - name: Javascript & jQuery
+     #   level: 98%
+
+     # - name: Angular
+     #   level: 98%
+
+     # - name: HTML5 & CSS
+      #  level: 95%
+
+      #- name: Ruby on Rails
+      #  level: 85%
+
+      #- name: Sketch & Photoshop
+      #  level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

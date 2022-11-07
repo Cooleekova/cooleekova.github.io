@@ -1,0 +1,206 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Tatiana Kulikova
+    tagline: Python Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: cooleekova@gmail.com
+    phone: +55 (12) 99641-1688
+    timezone: 
+    citizenship:
+    website: #do not add http://
+    linkedin: cooleekova
+    xing: 
+    github: cooleekova
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: C1
+
+        - idiom: Portuguese
+          level: B1
+
+        - idiom: Russian
+          level: Native
+
+    # interests:
+      # title: Interests
+      # info:
+        #- item: Climbing
+        #  link:
+
+        #- item: Snowboarding
+        #  link:
+
+        #- item: Cooking
+        # link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      В 2020 году я начала изучать программирование с расчётом на постепенный переход в IT, как наиболее перспективную и интересную сферу деятельности. 
+      В 2021 году закончила обучение по программе "Python-разработчик с нуля" в онлайн-школе Нетология, получила диплом о профессиональной переподготовке.
+       В настоящее время продолжаю обучение в формате самообразования.
+        - Python
+        - принципы объектно-ориентированного программирования, 
+        - язык SQL и основы работы с реляционными базами данных, 
+        - фреймворки для разработки веб-приложений Django и Flask, 
+        - контейнеризатор приложений Docker, 
+        - систему управления версиями Git, 
+        - методику разработки CI/CD на примере платформы GitHub Actions.
+        - ОС Linux (Ubuntu) 
+        - OC Windows (Powershell, WSL).
+education:
+    title: Education
+    info:
+      - degree: Разработчик Web приложений
+        university: Нетология
+        time: 2020 - 2021
+        #details: |
+      - degree: BSc in Менеджмент
+        university: Российская международная академия туризма
+        time: 2006 - 2012
+        #details: |
+          #Describe your study here lorem ipsum dolor sit amet, consectetuer
+          #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          #sociis natoque penatibus et magnis dis parturient montes, nascetur
+          #ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          #pretium quis, sem.
+          #  - Bullet point
+          #  - Bullet point
+experiences:
+    title: Experiences
+    info:
+      - role: Бизнес-координатор
+        time: Февраль 2014 - Июнь 2022
+        company: АО Техногрупп, Санкт-Петербург
+        details: |
+          Полное сопровождение процесса взаимодействия отдела продаж 
+          со смежными подразделениями и партнёрами компании, 
+          размещение и отслеживание заказов на поставку, 
+          подготовка отчётности по проектам, работа с тендерными площадками, 
+          администрирование CRM-системы, администрирование web-сайта компании.
+      - role: Специалист отдела транспорта
+        time: Сентябрь 2010 — Декабрь 2013
+        company: ООО Грундфос Истра, Москва
+        details: |
+          Организация международных и внутрироссийских грузоперевозок, 
+          контроль выполнения условий и сроков перевозок, 
+          роверка транспортных и финансовых документов, 
+          подготовка документов для таможенного оформления, работа с рекламациями
+      - role: Торговый представитель
+        time: Апрель 2007 — Сентябрь 2010
+        company: ООО Ст-Фуд, Москва
+        details: |
+          Активные продажи (молочная продукция, сыр, соки, майонез и др.), 
+          поддержание долгосрочных деловых отношений с клиентами, 
+          привлечение новых клиентов, подготовка коммерческих предложений, заключение договоров.
+projects:
+    #title: Projects
+    #intro: >
+      #You can list your side projects or open source libraries in this
+     # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      #Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    #assignments:
+     # - title: Velocity
+     #   link: "#hook"
+     #   tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+   #   - title: DevStudio
+    #    link: "#"
+    #    tagline: "A responsive website template designed to help web developers/designers market their services."
+
+     # - title: Tempo
+    #    link: "#"
+     #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    #  - title: Atom
+    #    link: "#"
+     #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+     # - title: Delta
+     #   link: "#"
+     #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Projects
+    intro: |
+    papers:
+      - title: REST API для сайта объявлений в Docker-контейнере
+        link: "https://github.com/Cooleekova/dockerized_Flask_RESTful_API"
+        authors: Python 3 / Flask / SQLAlchemy / PostgreSQL / Docker / JSON
+        conference: | 
+          API предоставляет доступ к базе данных с пользователями и объявлениями.Реализована возможность создавать новых пользователей и получать данные профиля пользователя по ID.Объявление можно создать, просмотреть и удалить. 
+
+
+      - title: API для автоматизации закупок в розничной сети
+        link: "https://github.com/Cooleekova/ordering_goods_django_API"
+        authors: Python 3 / Django / Django REST framework / PostgreSQL / Celery / Redis / YAML / HTML / CSS 
+        conference: | 
+          Пользователи сервиса: менеджер по закупкам, который заказывает товары, и поставщик товаров. Заказчик может регистрироваться, входить в систему, восстанавливать пароль и совершать покупки по каталогу. Функционал со стороны поставщика: включение и отключение приёма заказов, получение списка выполненных заказов,  обновлении прайс-листа через API.
+
+
+      - title: REST API  микросервис для аутентификации пользователей
+        link: "https://github.com/Cooleekova/FastAPI_user_auth"
+        authors: Python 3 / FastAPI / SQLAlchemy / PostgreSQL / Poetry / JSON Web Token
+        conference: |
+          Реализованные эндпоинты: регистрация нового пользователя, вход в систему, сброс пароля, 
+          получить профиль пользователя, обновить профиль пользователя, деактивировать аккаунт,
+          изменить пароль, выйти, загрузить изображение профиля, получить изображение профиля.
+        
+      - title: Погодное приложение
+        link: "https://github.com/Cooleekova/check-weather-app-django"
+        authors: Python 3 / Django / SQLite / HTML / Bootstrap / Heroku cloud platform
+        conference: |
+          Приложение позволяет получать данные о текущей погоде в указанном городе. 
+          Пользователю приложения предоставляется возможность ввести название города и получать информацию о погоде в режиме реального времени. 
+          Проект развернут на веб-сервере Heroku: https://check-weather-app-django.herokuapp.com/
+        
+      - title: Асинхронная программа для взаимодействия с открытым API
+        link: "https://github.com/Cooleekova/get_Star_Wars_characters_with_Python_Asyncio"
+        authors: Python 3 / Asyncio / Aiohttp / SQLAlchemy / JSON / API
+        conference: |
+          Информация о персонажах Звёздных войн выгружается из Star Wars API и сохраняется в базу данных. Выгрузка из API и загрузка в БД происходит асинхронно.
+
+#skills:
+    #title: Skills &amp; Proficiency
+
+    #toolset:
+    #  - name: Python & Django
+    #    level: 98%
+
+    #  - name: Javascript & jQuery
+     #   level: 98%
+
+     # - name: Angular
+     #   level: 98%
+
+     # - name: HTML5 & CSS
+      #  level: 95%
+
+      #- name: Ruby on Rails
+      #  level: 85%
+
+      #- name: Sketch & Photoshop
+      #  level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
