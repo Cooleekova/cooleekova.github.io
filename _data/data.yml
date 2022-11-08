@@ -57,8 +57,8 @@ career-profile:
     title: Sobre mim
     summary: |
       Olá, meu nome é Tatiana e sou desenvolvedora Python em transição de carreira.
-      Em 2020, comecei a estudar programação com a expectativa de uma transição gradual para a TI, como o campo de atuação mais promissor e interessante.
-      Em 2021, eu me formou no programa "Desenvolvedor Python do zero" e recebeu o diploma de formação profissional.
+      Em 2020, comecei a estudar programação com a expectativa de uma transição gradual para a área de TI, como o campo de atuação mais promissor e interessante.
+      Em 2021, eu me formei no programa "Desenvolvedor Python do zero" e recebi o diploma de formação profissional.
       Atualmente continuo a estudar como autodidata.
       
         - Python
@@ -144,12 +144,12 @@ publications:
     title: Projetos
     intro: |
     papers:
-      - title: API REST para site de classificados no Docker-contêiner 
+      - title: Dockerizado API REST para site de classificados
         link: "https://github.com/Cooleekova/dockerized_Flask_RESTful_API"
         authors: Python 3 / Flask / SQLAlchemy / PostgreSQL / Docker / JSON
         conference: | 
          A API fornece acesso a um banco de dados com usuários e anúncios. 
-         Foi implementada a capacidade de criar novos usuários e obter dados de perfil de usuário por ID.
+         Foi implementada a capacidade de criar novos usuários e obter dados de um perfil de usuário por ID.
          Um anúncio pode ser criado, visualizado e excluído.
 
 
