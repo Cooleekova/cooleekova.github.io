@@ -144,9 +144,9 @@ publications:
     title: Projetos
     intro: |
     papers:
-      - title: Dockerizado API REST para site de classificados
+      - title: API REST dockerizada para site de classificados
         link: "https://github.com/Cooleekova/dockerized_Flask_RESTful_API"
-        authors: Python 3 / Flask / SQLAlchemy / PostgreSQL / Docker / JSON
+        authors: Python 3 / Flask / SQLAlchemy / PostgreSQL / JSON / Docker
         conference: | 
          A API fornece acesso a um banco de dados com usuários e anúncios. 
          Foi implementada a capacidade de criar novos usuários e obter dados de um perfil de usuário por ID.
