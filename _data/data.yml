@@ -69,7 +69,7 @@ career-profile:
         - Flask
         - Docker
         - Git
-        - CI/CD (Github Actions)
+        - CI/CD (Jenkins, Github Actions)
         - Linux (Ubuntu) 
         - Windows (Powershell, WSL)
  
