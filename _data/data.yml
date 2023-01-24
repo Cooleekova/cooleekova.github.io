@@ -76,6 +76,10 @@ career-profile:
 education:
     title: Educação
     info:
+      - degree: Data Engineer with Python
+        university: Datacamp 
+        time: formatura estimada para maio de 2023
+        #details: |
       - degree: Desenvolvimento WEB
         university: Netology 
         time: 2020 - 2021
