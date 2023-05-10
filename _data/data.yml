@@ -59,7 +59,7 @@ career-profile:
       Olá, meu nome é Tatiana e sou desenvolvedora Python em transição de carreira.
       Em 2020, comecei a estudar programação com a expectativa de uma transição gradual para a área de TI, como o campo de atuação mais promissor e interessante.
       Em 2021, eu me formei no programa "Desenvolvedor Python do zero" e recebi o diploma de formação profissional.
-      Atualmente continuo a estudar como autodidata.
+      Atualmente continuo a estudar na plataforma DataCamp.
       
         - Python
         - Princípios de OOP
@@ -78,7 +78,7 @@ education:
     info:
       - degree: Data Engineer with Python
         university: Datacamp 
-        time: Cursando (formatura estimada para maio de 2023)
+        time: Cursando (formatura estimada para julho de 2023)
         #details: |
       - degree: Desenvolvimento WEB
         university: Netology 
